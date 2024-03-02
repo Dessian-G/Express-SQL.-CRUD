@@ -1,0 +1,128 @@
+/* CSS styles for the header and navigation */
+body{
+    background-color: #a8b9c0;
+    
+    color: black;
+    margin:0 auto;
+    
+  }
+  
+  
+  header {
+    background-color: rgb(14, 94, 51);
+    color: #fff;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  span {
+    font-weight: bold; /* Make the text bold */
+    font-size: 14px; /* Set the font size */
+  }
+  .quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 2em;
+  }
+  .links {
+    float: right;
+    
+  }
+  .links a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .25em;
+  }
+  
+  .links a:first-of-type {
+    margin-left: 0;
+  }
+  
+  .links a.active {
+    border-bottom: 1px solid #555;
+  }
+  nav {
+    background-color: #186449; /* Dark background color */
+    overflow: hidden; /* Clear floating elements */
+    margin-left: 25px;
+    margin-right: 25px;
+    
+  }
+  nav {
+    display: inline; /* Display the navigation links inline */
+    margin-left: 60px; /* Add some spacing to the left of the navigation links */
+  }
+  .nav a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: black; /* Text color on hover */
+  }
+  
+  nav  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  nav  {
+    display: inline;
+    margin-right: 60px;
+  }
+  
+  nav {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  #div-1 { background-color: rgb(47, 121, 159);}
+  /* CSS styles for the main content */
+  main {
+    padding: 20px;
+    text-align: center;
+  
+    
+  
+    
+  }
+  html
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+  
+   
+  }
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 20px;
+    text-align: center;
+    box-shadow: 0 -1px 4px -3px  black;
+    background-color: green;
+    float: right;
+    
+  }
+  footer .media-link {
+    height: 40px;
+  }
+  
+  footer a {
+    margin-right: 14px;
+    text-decoration: none;
+  }
+  
+  footer a:last-child {
+    margin-right: 0;
+  }

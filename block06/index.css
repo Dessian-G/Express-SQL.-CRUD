@@ -1,0 +1,25 @@
+h1 {
+    color: aquamarine;
+    text-align: center;
+}
+/* added a border style solid to my h2 and changed the size and background color */
+h2 {
+    background-color: bisque;
+    width: 40%;
+    height: 30%;
+    border-style: solid;
+}
+/* used the section selector to change the background color to gray and display to inline-block */
+section {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 20%;
+    
+}
+/* changed the display type for images to inline-block to place them next to my sections, also adjusted the padding, width and height */
+img {
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    height: auto;
+}
